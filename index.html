@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Benny Labajo - Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</head>
+<body>
+    <!-- Loader -->
+    <div class="loader">
+        <div class="loader__bar"></div>
+        <div class="loader__bar"></div>
+        <div class="loader__bar"></div>
+        <div class="loader__bar"></div>
+        <div class="loader__bar"></div>
+        <div class="loader__ball"></div>
+    </div>
+    <!-- Header -->
+    <header>
+        <nav class="container">
+            <!-- Navigation -->
+            <div class="parent-link">
+                <button class="nav-button" data-section="about">About</button>
+                <button class="nav-button" data-section="projects">Projects</button>
+                <button class="nav-button" data-section="experience">Experience</button>
+                <button class="nav-button" data-section="contact">Contact</button>
+            </div>
+            <div class="icon">
+                <a href="https://facebook.com" target="_blank" class="sm-icon1">
+                    <ion-icon name="logo-facebook"></ion-icon>
+                </a>
+                <a href="https://instagram.com" target="_blank" class="sm-icon2">
+                    <ion-icon name="logo-instagram"></ion-icon>
+                </a>
+                <a href="https://youtube.com" target="_blank" class="sm-icon3">
+                    <ion-icon name="logo-youtube"></ion-icon>
+                </a>
+                <a href="https://twitter.com" target="_blank" class="sm-icon4">
+                    <ion-icon name="logo-twitter"></ion-icon>
+                </a>
+            </div>
+            <div class="music-controls">
+                <input type="checkbox" id="checkboxInput">
+                <label for="checkboxInput" class="toggleSwitch">
+                    <div class="speaker">
+                        <svg xmlns="http://www.w3.org/2000/svg" version="1.0" viewBox="0 0 75 75">
+                            <path d="M39.389,13.769 L22.235,28.606 L6,28.606 L6,47.699 L21.989,47.699 L39.389,62.75 L39.389,13.769z"
+                                style="stroke:#fff;stroke-width:5;stroke-linejoin:round;fill:#fff;"></path>
+                            <path d="M48,27.6a19.5,19.5 0 0 1 0,21.4M55.1,20.5a30,30 0 0 1 0,35.6M61.6,14a38.8,38.8 0 0 1 0,48.6"
+                                style="fill:none;stroke:#fff;stroke-width:5;stroke-linecap:round"></path>
+                        </svg>
+                    </div>
+
+                    <div class="mute-speaker">
+                        <svg version="1.0" viewBox="0 0 75 75" stroke="#fff" stroke-width="5">
+                            <path d="m39,14-17,15H6V48H22l17,15z" fill="#fff" stroke-linejoin="round"></path>
+                            <path d="m49,26 20,24m0-24-20,24" fill="#fff" stroke-linecap="round"></path>
+                        </svg>
+                    </div>
+                </label>
+            </div>
+            <div class="music-player">
+                <audio id="music" controls>
+                    <source src="brunomars.mp3" type="audio/mp3">
+                </audio>
+            </div>
+        </nav>
+        <div class="header-container">
+            <div class="hdr-container-left">
+                <h1>Benny Labajo</h1>
+                <h3>1st year student</h3>
+                <p>A 19-year-old <strong>BS Information Technology student</strong> at Nemsu Cagwait</p>
+                <button class="contactButton">Email Me 
+                    <div class="iconButton"> <a href="https://mail.google.com/mail/u/0/" target="_blank" class="sm-icon1">
+                        <ion-icon name="logo-gmail"></ion-icon>
+                    </a>
+                    
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24">
+                            <path fill="none" d="M0 0h24v24H0z"></path>
+                            <path fill="currentColor"
+                                d="M16.172 11l-5.364-5.364 1.414-1.414L20 12l-7.778 7.778-1.414-1.414L16.172 13H4v-2z"></path>
+                        </svg>
+                    </div>
+                </button>
+
+            </div>
+            
+            <div class="hdr-container-right">   
+                <div class="tooltip-container">
+                    <span class="tooltip">Hello!</span>
+                    <span class="text">Try me</span>
+                </div>
+                <br>
+                <img src="utot.jpg" alt="Picture of me">
+            </div>
+        </div>
+    </header>
+    <article>
+        <section id="about">
+        </section>
+        <section id="projects">
+        </section>
+        <section id="experience">
+        </section>
+        <section id="contact">
+        </section>
+        <div class="upr-box">
+            <div class="card">
+                <div class="logo-container">
+                    <img src="about.png" alt="Logo">
+                </div>
+                <img src="aboutme.webp" alt="Description">
+                <h3>About me</h3>
+                <p class="description">Hello! My name is Benny E. Labajo Jr., and I'm an 18-year-old individual residing in Poblacion, Cagwait, Surigao del Sur. Currently, I'm enjoying the single life and navigating the exciting journey of young adulthood.</p>
+            </div>
+            <div class="card">
+                <div class="logo-container">
+                    <img src="projects.png" alt="Logo">
+                </div>
+                <img src="project.webp" alt="Description">
+                <h3>Projects</h3>
+                <p class="description">Project 1: Personal Portfolio (HTML and CSS)
+
+                    Description:
+                    Embarking on a journey to showcase skills, experiences, and creativity through a personal portfolio. Utilizing HTML and CSS, the goal is to design a visually appealing and informative platform reflecting both personal and professional aspects. 
+                    <br>
+                    <br>
+                    Project 2: Guessing Game (C++)
+
+                    Description:
+                    In the realm of programming, the development of a classic guessing game using C++. This interactive project engages users in guessing a number or word within a specified range. 
+
+                </p>
+            </div>
+            <div class="card">
+                <div class="logo-container">
+                    <img src="experience.png" alt="Logo">
+                </div>
+                <img src="experience.webp" alt="Description">
+                <h3>Experiences</h3>
+                <p class="description">As a beginner in coding, I am in the early stages of my programming journey. I have started learning the fundamentals of HTML and CSS, gaining insights into web development. Additionally, I've explored the basics of C++, delving into programming logic and structure. While I am still in the initial phases of my coding experience, my enthusiasm for learning and building a solid foundation in coding is evident. I am eager to continue expanding my knowledge and skills as I progress on this exciting path of exploration in the world of programming.</p>
+            </div>
+            <div class="card">
+                <div class="logo-container">
+                    <img src="contact.png" alt="Logo">
+                </div>
+                <img src="contact.webp" alt="Description">
+                <h3>Contact</h3>
+                <p class="description">Feel free to get in touch with me! You can reach out via Gmail at bennylabajo@gmail.com. If you prefer a more direct conversation, you can also contact me on my phone at 09278358733. I'm open to connecting, whether it's regarding potential collaborations, inquiries, or just a friendly conversation. Looking forward to hearing from you!
+                </p>
+            </div>
+        </article>
+    <div class="box-info">
+        <div class="info">
+            <div class="upr-info">
+                <p>What is <strong>Information Technology?</strong>, Information technology (IT) is the use of any
+                    computers, storage, networking and other physical devices, infrastructure and processes to create,
+                    process, store, secure and exchange all forms of electronic data. Typically, IT is used in the
+                    context of business operations, as opposed to technology used for personal or entertainment
+                    purposes. The commercial use of IT encompasses both computer technology and
+                    telecommunications.
+                </p>
+            </div>
+            <div class="lower-info">
+                <img src="sad1.jpg" alt="Vector image of a computer">
+            </div>
+        </div>
+        <div class="info">
+            <div class="upr-info">
+                <p>What is <strong>HTML?</strong>, HTML, which stands for "Hypertext Markup Language," is a standard
+                    markup language used in web development to create and structure the content of a web page. It forms
+                    the backbone of most web pages on the internet and provides a way to describe the structure of
+                    documents via elements and tags.
+                </p>
+            </div>
+            <div class="lower-info">
+                <img src="html.jpg" alt="Vector image of a computer">
+            </div>
+        </div>
+        <div class="info-company info-2">
+            <div class="lower-info">
+                <img src="css.jpg" alt="Vector image of a computer">
+            </div>
+            <div class="upr-info">
+                <p>What is <strong>CSS?</strong>, CSS, which stands for "Cascading Style Sheets," is a stylesheet
+                    language used in web development to describe the presentation and styling of HTML documents. CSS
+                    allows developers to control the layout, design, and appearance of multiple web pages simultaneously
+                    by applying styles to HTML elements. It plays a crucial role in separating the structure (HTML)
+                    from the presentation (CSS) of a web page.
+                </p>
+            </div>
+        </div>
+        <div class="info-company">
+            <div class="upr-info">
+                <p>What is <strong>JAVASCRIPT? </strong>, JavaScript is a high-level, versatile, and interpreted
+                    programming language primarily known for its role in web development. It allows developers to add
+                    interactivity, dynamic content, and client-side scripting to web pages. JavaScript is an essential
+                    technology for building modern web applications and is supported by all major web browsers.
+                </p>
+            </div>
+            <div class="lower-info">
+                <img src="js.jpg" alt="Vector image of a computer">
+            </div>
+        </div>
+    </div>
+    <hr>
+    <footer>
+        <p>&copy; 2023 Benny Labajo. All rights reserved.</p>
+        <div class="icon">
+            <a href="https://facebook.com" target="_blank" class="sm-icon1">
+                <ion-icon name="logo-facebook"></ion-icon>
+            </a>
+            <a href="https://instagram.com" target="_blank" class="sm-icon2">
+                <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+            <a href="https://youtube.com" target="_blank" class="sm-icon3">
+                <ion-icon name="logo-youtube"></ion-icon>
+            </a>
+            <a href="https://twitter.com" target="_blank" class="sm-icon4">
+                <ion-icon name="logo-twitter"></ion-icon>
+            </a>
+        </div>
+    </footer>
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            const navButtons = document.querySelectorAll('.nav-button');
+
+            navButtons.forEach(button => {
+                button.addEventListener('click', function () {
+                    const sectionId = this.getAttribute('data-section');
+                    const targetSection = document.getElementById(sectionId);
+
+                    if (targetSection) {
+                        window.scrollTo({
+                            top: targetSection.offsetTop,
+                            behavior: 'smooth'
+                        });
+                    }
+                });
+            });
+        });
+    </script>
+
+</body>
+
+</html>
